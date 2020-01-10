@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d215fadc-952a-4abf-8663-c4871008cb10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/MyTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/MyTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:zghsky/jvm_lecture.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1TsoAx3yIafCZLC3Ix6sGTfC341" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -85,7 +91,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.MyTest21">
     <configuration name="MyTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -234,7 +240,13 @@
       <workItem from="1577320675933" duration="445000" />
       <workItem from="1578036817621" duration="1013000" />
       <workItem from="1578037929525" duration="1889000" />
-      <workItem from="1578471644729" duration="3750000" />
+      <workItem from="1578471644729" duration="4167000" />
+      <workItem from="1578530111830" duration="9490000" />
+      <workItem from="1578553742665" duration="442000" />
+      <workItem from="1578556809452" duration="27000" />
+      <workItem from="1578559961354" duration="1284000" />
+      <workItem from="1578617516335" duration="1877000" />
+      <workItem from="1578621043912" duration="2094000" />
     </task>
     <servers />
   </component>
@@ -246,6 +258,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="436" y="88" key="#MyTest15/0.0.1474.864@0.0.1474.864" timestamp="1575123321053" />
+    <state x="937" y="202" key="#Notifications" timestamp="1578539771557">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="937" y="202" key="#Notifications/0.0.1842.1080@0.0.1842.1080" timestamp="1578539771557" />
     <state x="192" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575298507872">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -259,10 +275,11 @@
     </state>
     <state x="489" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1575891841457" />
     <state x="611" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1842.1080@0.0.1842.1080" timestamp="1578472435667" />
-    <state x="534" y="188" key="FileChooserDialogImpl" timestamp="1576647369066">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="667" y="235" key="FileChooserDialogImpl" timestamp="1578556830792">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="534" y="188" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1576647369066" />
+    <state x="667" y="235" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1578556830792" />
     <state width="1342" height="197" key="GridCell.Tab.0.bottom" timestamp="1577321123514">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -295,14 +312,16 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1342" height="258" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1576653612857" />
-    <state x="234" y="8" key="SettingsEditor" timestamp="1577161197021">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="714" y="147" key="SettingsEditor" timestamp="1578621289992">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="234" y="8" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1577161197021" />
-    <state x="418" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1575816911482">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="714" y="147" key="SettingsEditor/0.0.1842.1080@0.0.1842.1080" timestamp="1578621289992" />
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1578621043920">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="418" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1575816911482" />
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1578621043920" />
     <state x="163" y="43" key="new project wizard" timestamp="1576635401359">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
