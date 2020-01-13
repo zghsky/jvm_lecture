@@ -93,7 +93,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MyTest21">
+  <component name="RunManager" selected="Application.MyTest1">
+    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.bytecode.MyTest1" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shengsiyuan.jvm.bytecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.classloader.MyTest20" />
       <module name="jvm_lecture.main" />
@@ -109,19 +122,6 @@
     </configuration>
     <configuration name="MyTest21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.classloader.MyTest21" />
-      <module name="jvm_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shengsiyuan.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.classloader.MyTest25" />
       <module name="jvm_lecture.main" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest25" />
       <item itemvalue="Application.MyTest26" />
       <item itemvalue="Application.MyTest5" />
       <item itemvalue="Application.MyTest20" />
       <item itemvalue="Application.MyTest21" />
+      <item itemvalue="Application.MyTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest1" />
         <item itemvalue="Application.MyTest21" />
         <item itemvalue="Application.MyTest20" />
         <item itemvalue="Application.MyTest5" />
         <item itemvalue="Application.MyTest26" />
-        <item itemvalue="Application.MyTest25" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,9 @@
       <workItem from="1578556809452" duration="27000" />
       <workItem from="1578559961354" duration="1284000" />
       <workItem from="1578617516335" duration="1877000" />
-      <workItem from="1578621043912" duration="2094000" />
+      <workItem from="1578621043912" duration="4281000" />
+      <workItem from="1578875710525" duration="10314000" />
+      <workItem from="1578905094502" duration="731000" />
     </task>
     <servers />
   </component>
@@ -270,11 +272,11 @@
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="575" y="396" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1842.1080@0.0.1842.1080" timestamp="1578475596108" />
-    <state x="611" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1578472435667">
+    <state x="611" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1578900642821">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="489" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1575891841457" />
-    <state x="611" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1842.1080@0.0.1842.1080" timestamp="1578472435667" />
+    <state x="611" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1842.1080@0.0.1842.1080" timestamp="1578900642821" />
     <state x="667" y="235" key="FileChooserDialogImpl" timestamp="1578556830792">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
@@ -317,11 +319,11 @@
     </state>
     <state x="234" y="8" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1577161197021" />
     <state x="714" y="147" key="SettingsEditor/0.0.1842.1080@0.0.1842.1080" timestamp="1578621289992" />
-    <state x="522" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1578621043920">
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1578906380295">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="418" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1575816911482" />
-    <state x="522" y="320" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1578621043920" />
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1578906380295" />
     <state x="163" y="43" key="new project wizard" timestamp="1576635401359">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

@@ -30,6 +30,7 @@ package com.shengsiyuan.jvm.bytecode;
  */
 public class MyTest1 {
 
+    // 通过字节码得知 a 的值是在构造方法中赋值的
     private int a = 1;
 
     public int getA() {
