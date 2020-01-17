@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d215fadc-952a-4abf-8663-c4871008cb10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/DynamicSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/memory/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/memory/MyTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,9 +13,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/MyTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/MyTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/MyTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/jvm/bytecode/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/jvm/bytecode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MyTest2">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.bytecode.Client" />
       <module name="jvm_lecture.main" />
@@ -117,12 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.bytecode.MyTest5" />
+    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.memory.MyTest1" />
       <module name="jvm_lecture.main" />
+      <option name="VM_PARAMETERS" value="-Xms5m -Xmx5m -XX:+HeapDumpOnOutOfMemoryError" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shengsiyuan.jvm.bytecode.*" />
+          <option name="PATTERN" value="com.shengsiyuan.jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.bytecode.MyTest6" />
+    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.jvm.memory.MyTest2" />
       <module name="jvm_lecture.main" />
+      <option name="VM_PARAMETERS" value="-Xss160k" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shengsiyuan.jvm.bytecode.*" />
+          <option name="PATTERN" value="com.shengsiyuan.jvm.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +168,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest5 (1)" />
-      <item itemvalue="Application.MyTest6" />
       <item itemvalue="Application.MyTest7" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.MyTest1" />
+      <item itemvalue="Application.MyTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest2" />
+        <item itemvalue="Application.MyTest1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.MyTest7" />
-        <item itemvalue="Application.MyTest6" />
-        <item itemvalue="Application.MyTest5 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +263,9 @@
       <workItem from="1578985654127" duration="19000" />
       <workItem from="1578991339167" duration="2867000" />
       <workItem from="1579048345645" duration="158000" />
-      <workItem from="1579048692709" duration="18673000" />
+      <workItem from="1579048692709" duration="19665000" />
+      <workItem from="1579134943247" duration="11823000" />
+      <workItem from="1579221152657" duration="16737000" />
     </task>
     <servers />
   </component>
@@ -281,10 +281,11 @@
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="937" y="202" key="#Notifications/0.0.1842.1080@0.0.1842.1080" timestamp="1578539771557" />
-    <state x="192" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575298507872">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="675" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579251691920">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="192" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1575298507872" />
+    <state x="675" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1579251691920" />
     <state x="575" y="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578475596108">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
@@ -299,26 +300,26 @@
     </state>
     <state x="534" y="188" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1576647369066" />
     <state x="667" y="235" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1578985667556" />
-    <state width="1799" height="290" key="GridCell.Tab.0.bottom" timestamp="1579078935168">
+    <state width="1283" height="290" key="GridCell.Tab.0.bottom" timestamp="1579251950108">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1342" height="197" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1577321123514" />
-    <state width="1799" height="290" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1579078935168" />
-    <state width="1799" height="290" key="GridCell.Tab.0.center" timestamp="1579078935168">
+    <state width="1283" height="290" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1579251950108" />
+    <state width="1283" height="290" key="GridCell.Tab.0.center" timestamp="1579251950107">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1342" height="197" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1577321123514" />
-    <state width="1799" height="290" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1579078935168" />
-    <state width="1799" height="290" key="GridCell.Tab.0.left" timestamp="1579078935168">
+    <state width="1283" height="290" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1579251950107" />
+    <state width="1283" height="290" key="GridCell.Tab.0.left" timestamp="1579251950107">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1342" height="197" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1577321123514" />
-    <state width="1799" height="290" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1579078935168" />
-    <state width="1799" height="290" key="GridCell.Tab.0.right" timestamp="1579078935168">
+    <state width="1283" height="290" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1579251950107" />
+    <state width="1283" height="290" key="GridCell.Tab.0.right" timestamp="1579251950108">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1342" height="197" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1577321123514" />
-    <state width="1799" height="290" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1579078935168" />
+    <state width="1283" height="290" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1579251950108" />
     <state width="1342" height="258" key="GridCell.Tab.1.bottom" timestamp="1576653612858">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -340,11 +341,15 @@
     </state>
     <state x="234" y="8" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1577161197021" />
     <state x="714" y="147" key="SettingsEditor/0.0.1842.1080@0.0.1842.1080" timestamp="1578621289992" />
-    <state x="522" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1579048804717">
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1579221258100">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="418" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1575816911482" />
-    <state x="522" y="320" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1579048804717" />
+    <state x="522" y="320" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1579221258100" />
+    <state width="490" height="574" key="javadoc.popup.new" timestamp="1579250506986">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="490" height="574" key="javadoc.popup.new/0.0.1842.1080@0.0.1842.1080" timestamp="1579250506986" />
     <state x="163" y="43" key="new project wizard" timestamp="1576635401359">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

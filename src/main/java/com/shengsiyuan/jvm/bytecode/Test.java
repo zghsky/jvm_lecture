@@ -1,12 +1,18 @@
 package com.shengsiyuan.jvm.bytecode;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Test {
 
     public static void main(String[] args) {
         System.out.println(isInterleave("aabcc", "dbbca", "aadbbcbccc"));
+        List<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(1);
+        list.add(5);
+        list.add(9);
+        list.sort((x, y) -> x - y);
+        System.out.println(list);
     }
 
     public static boolean isInterleave(String s1, String s2, String s3) {
